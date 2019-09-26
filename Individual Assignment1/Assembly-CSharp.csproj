@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{335E31D0-89CF-9D6D-759D-818EE5E1355C}</ProjectGuid>
+    <ProjectGuid>{3FBD6FE8-4BFD-3C5E-999D-3527C7C405E4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,31 +59,31 @@
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlayerMotor.cs" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/Adam Bilyea/Documents/_Unity Projects/Tutorial Assignment 1 - Game Engine/IndividualAssignment1/Individual Assignment 1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/Adam Bilyea/Documents/_Unity Projects/DLL Assignment 1/Game Engine Assignment 1/Individual Assignment1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/Adam Bilyea/Documents/_Unity Projects/Tutorial Assignment 1 - Game Engine/IndividualAssignment1/Individual Assignment 1/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/Adam Bilyea/Documents/_Unity Projects/DLL Assignment 1/Game Engine Assignment 1/Individual Assignment1/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Adam Bilyea/Documents/_Unity Projects/Tutorial Assignment 1 - Game Engine/IndividualAssignment1/Individual Assignment 1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Adam Bilyea/Documents/_Unity Projects/DLL Assignment 1/Game Engine Assignment 1/Individual Assignment1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Adam Bilyea/Documents/_Unity Projects/Tutorial Assignment 1 - Game Engine/IndividualAssignment1/Individual Assignment 1/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/Adam Bilyea/Documents/_Unity Projects/DLL Assignment 1/Game Engine Assignment 1/Individual Assignment1/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/Adam Bilyea/Documents/_Unity Projects/Tutorial Assignment 1 - Game Engine/IndividualAssignment1/Individual Assignment 1/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/Adam Bilyea/Documents/_Unity Projects/DLL Assignment 1/Game Engine Assignment 1/Individual Assignment1/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/Adam Bilyea/Documents/_Unity Projects/Tutorial Assignment 1 - Game Engine/IndividualAssignment1/Individual Assignment 1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/Adam Bilyea/Documents/_Unity Projects/DLL Assignment 1/Game Engine Assignment 1/Individual Assignment1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/Adam Bilyea/Documents/_Unity Projects/Tutorial Assignment 1 - Game Engine/IndividualAssignment1/Individual Assignment 1/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/Adam Bilyea/Documents/_Unity Projects/DLL Assignment 1/Game Engine Assignment 1/Individual Assignment1/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Adam Bilyea/Documents/_Unity Projects/Tutorial Assignment 1 - Game Engine/IndividualAssignment1/Individual Assignment 1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Adam Bilyea/Documents/_Unity Projects/DLL Assignment 1/Game Engine Assignment 1/Individual Assignment1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/Adam Bilyea/Documents/_Unity Projects/Tutorial Assignment 1 - Game Engine/IndividualAssignment1/Individual Assignment 1/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/Adam Bilyea/Documents/_Unity Projects/DLL Assignment 1/Game Engine Assignment 1/Individual Assignment1/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

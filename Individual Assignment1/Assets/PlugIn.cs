@@ -8,8 +8,10 @@ public class PlugIn : MonoBehaviour
      const string DLL_NAME = "SIMPLEPLUGIN";
     [DllImport(DLL_NAME)]
     private static extern int SimpleFunction();
-    private static extern int SaveFunction();
-    private static extern int LoadFunction();
+    [DllImport(DLL_NAME)]
+    private static extern int SaveFunction(float x, float y, float z);
+    [DllImport(DLL_NAME)]
+    private static extern Vector3 LoadFunction();
 
     public GameObject Player;
     private Rigidbody rb;
@@ -29,17 +31,25 @@ public class PlugIn : MonoBehaviour
             PosY = rb.GetComponent<Rigidbody>().position.y;
             PosZ = rb.GetComponent<Rigidbody>().position.z;
 
+            Debug.Log("Save to file test");
+            SaveFunction(PosX, PosY, PosZ);
+
             Debug.Log(PosX + " : " + PosY + " : " + PosZ + " : ");
-
-           //Debug.Log(SaveFunction());
        }
-
 
         if (Input.GetKeyDown(KeyCode.L))
        {
-            rb.GetComponent<Rigidbody>().position = new Vector3(PosX, PosY, PosZ);
+            Vector3 loc = LoadFunction();
 
-          //Debug.Log(LoadFunction());
+            Debug.Log(loc.x);
+            Debug.Log(loc.y);
+            Debug.Log(loc.z);
+
+            Player.GetComponent<Rigidbody>().position = new Vector3(loc.x, loc.y, loc.z);
+
+            //rb.GetComponent<Rigidbody>().position = new Vector3(PosX, PosY, PosZ);
+
+            //Debug.Log(LoadFunction());
        }
     }
 }
